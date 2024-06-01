@@ -193,6 +193,7 @@ Obtiene los datos del curso registrado con el id 1, con todos los profesores que
 
 **1 -** Para instalar correr el siguiente comando: ```npm install```  
 **2 -** Para correr en modo local con nodemon: ```npm run dev```
+
 **3 -** Para correr en modo local con node: ```npm run start```
 
 ## Modelo Entidad-Relacion BDEAVER 
