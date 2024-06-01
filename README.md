@@ -186,3 +186,20 @@ Obtiene los datos del curso registrado con el id 1, con todos los profesores que
 - El puerto de listener deberá ser configurable por variable de entorno
 - La entega debe soportar cambiar la configuración del motor de base de datos de forma simple en funcion de probar con distintos motores.
 
+
+## Entrega
+
+## Comandos para la instalacion y ejecucion
+
+**1 -** Para instalar correr el siguiente comando: ```npm install```  
+**2 -** Para correr en modo local con nodemon: ```npm run dev```
+**3 -** Para correr en modo local con node: ```npm run start```
+
+## Modelo Entidad-Relacion BDEAVER 
+![DER](DER_override.png)
+
+## Puerto
+El puerto esta configurado en el archivo "puerto.env", y se puede cambiar numero de puerto que se desee. De todas maneras, si por alguna razon el puerto invocado no es accesible o surge algun inconveniente, la aplicacion inicia por defecto en el puerto 3001
+
+## Variables de entorno
+Para cambiar las variables se debe modificar el archivo "variables_entorno.env"
